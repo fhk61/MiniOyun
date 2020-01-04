@@ -88,8 +88,8 @@ def fire_missile():
 
 
 hakan.listen()
-hakan.onkey(rotate_right, "Right")
-hakan.onkey(rotate_left, "Left")
+hakan.onkeypress(rotate_right, "Right")
+hakan.onkeypress(rotate_left, "Left")
 hakan.onkey(fire_missile, "space")
 
 
